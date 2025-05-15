@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <button onClick={() => Add(count) } >+</button>
-      <div>{count}</div>
+      <h1>{count}</h1>
       <button onClick={() => Reduce(count) } >-</button>
     </>
   );
